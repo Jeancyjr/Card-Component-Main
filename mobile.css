@@ -1,0 +1,118 @@
+/* Mobile */
+@media(max-width: 500px) {
+  /* Card form and Chanel picture */
+  .container {
+    max-width: 30rem;
+    margin: 8rem auto;
+    /* padding: 2rem; */
+  }
+
+  /* Card form and Chanel picture */
+
+.card-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--White);
+  margin: 2rem 1rem;
+  height: 31rem;
+  border-radius: 0.5rem;
+}
+
+#chanel-img {
+  background: url("./images/image-product-mobile.jpg") no-repeat center center/cover;
+  background-size: cover;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+/* Description area box */
+
+.description h4 {
+  font-family: var(--Font-Montserrat);
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--Darkgrayishblue-color);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.description h1 {
+  font-family: var(--Font-Fraunces);
+  font-size: 2.4rem;
+  color: var(--Verydarkblue-color);;
+  line-height: 1.1;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.description p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--Darkgrayishblue-color);
+  line-height: 1.8;
+  width: 82%;
+  margin-top: 1rem;
+}
+}
+
+/* Small screen */
+
+@media(min-width: 501px) and (max-width: 800px) {
+  /* Card form and Chanel picture */
+  .container {
+    max-width: 30rem;
+    margin: 8rem auto;
+    /* padding: 2rem; */
+  }
+
+  /* Card form and Chanel picture */
+
+.card-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--White);
+  margin: 2rem 1rem;
+  height: 31rem;
+  border-radius: 0.5rem;
+}
+
+#chanel-img {
+  background: url("./images/image-product-mobile.jpg") no-repeat center center/cover;
+  background-size: cover;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+/* Description area box */
+
+.description h4 {
+  font-family: var(--Font-Montserrat);
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--Darkgrayishblue-color);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.description h1 {
+  font-family: var(--Font-Fraunces);
+  font-size: 2.4rem;
+  color: var(--Verydarkblue-color);;
+  line-height: 1.1;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.description p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--Darkgrayishblue-color);
+  line-height: 1.8;
+  width: 82%;
+  margin-top: 1rem;
+}
+}
